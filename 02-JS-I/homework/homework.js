@@ -62,20 +62,18 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x == y){
+  if (x === y){
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length == str2.length){
-    return true;
-  }
-  return false;
+  return str1.length === str2.length ;
 }
 
 function menosQueNoventa(num) {
@@ -84,18 +82,16 @@ function menosQueNoventa(num) {
   // Tu código:
   if (num < 90){
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 50){
-    return true;
-  }
-  return false;
+    return num > 50;
 }
 
 function obtenerResto(x, y) {
@@ -110,8 +106,9 @@ function esPar(num) {
   // Tu código:
   if (num % 2 == 0){
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 function esImpar(num) {
@@ -120,8 +117,9 @@ function esImpar(num) {
   // Tu código:
   if (num % 2 !== 0){
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 function elevarAlCuadrado(num) {
@@ -170,10 +168,11 @@ function esPositivo(numero) {
     return "Es positivo";
   }
   else if (numero < 0){
-  return "Es negativo"; 
+    return "Es negativo"; 
   }
-  else
-  return false;
+  else {
+    return false;
+  }
 }
 
 function agregarSimboloExclamacion(str) {
@@ -214,7 +213,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-return base * altura / 2;
+return (base * altura) / 2;
 }
 
 
@@ -237,8 +236,9 @@ function esVocal(letra){
   }
   else if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
     return "Es vocal";
-  } else
+  } else {
     return "Dato incorrecto";
+    }
   }
 
 

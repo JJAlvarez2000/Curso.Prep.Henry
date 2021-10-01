@@ -50,17 +50,17 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   if(idioma === "aleman"){
-    return "Guten Tag!"
+    return "Guten Tag!";
   }
   else if(idioma === "mandarin"){
-    return "Ni Hao!"
+    return "Ni Hao!";
   }
   else if(idioma === "ingles"){
-  return "Hello!"
+    return "Hello!";
   }
   else 
-  return "Hola!"
-}
+    return "Hola!";
+  }
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
@@ -217,14 +217,13 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  var a = numero;
-  var i = 0;
+  var a = 0;
   do {
-    i = i + 1;
-    a = a + 5;
+    a = a + 1;
+    numero = numero + 5;
   }
-  while(i < 8);
-  return a;
+  while(a < 8);
+  return numero;
 }
   
 

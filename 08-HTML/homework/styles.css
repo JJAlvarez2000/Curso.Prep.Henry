@@ -1,3 +1,6 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/456/142/non_2x/artificial-green-grass-background-photo.jpg");
+  }
 h1 {
   color: orange;
 }
@@ -7,10 +10,9 @@ img {
 #thirdDiv {
   height: 600px;
   width: 500px;
-  background: orange;
+  background-color: orange;
   padding: 50px;
-  border: 20px;
-  border-color: aqua;
+  border: 20px black solid;
 }
 #spanId {
   font-size: 18px;
